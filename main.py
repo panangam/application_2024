@@ -1,10 +1,15 @@
 from pathlib import Path
 import subprocess
+import argparse
 
 import jinja2
 from tqdm import tqdm
 
 from config import per_school_config
+
+parser = argparse.ArgumentParser()
+parser.add_argument('prefix', nargs='?', default=None, help='Folder name, which is probably the school name. If not given, run all.')
+args = parser.parse_args()
 
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('.'),
@@ -13,7 +18,11 @@ env = jinja2.Environment(
 )
 template = env.get_template('sop_master.jinja')
 
-for prefix in tqdm(per_school_config.keys()):
+if args.prefix is not None:
+    per_school_config = {args.prefix: per_school_config[args.prefix]}
+
+for prefix in (pbar := tqdm(per_school_config.keys())):
+    pbar.set_description(prefix)
     config = per_school_config[prefix]
 
     sop_text = template.render(config)

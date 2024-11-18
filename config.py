@@ -13,6 +13,7 @@ def read_text(file):
 _override_configs = dict(
     cmu=dict(
         school='CMU',
+        header_extra=', CMU Application ID: panangam@gmail.com'
     ),
     usc=dict(
         school='USC',
