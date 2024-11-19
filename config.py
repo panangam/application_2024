@@ -4,6 +4,7 @@ default_config = dict(
     school_paragraph='XXXXX NOT SET! XXXXX',
     include_personal_paragraph=True,
     header_extra='',
+    master_program_name='master\'s'
 )
 
 def read_text(file):
@@ -22,7 +23,8 @@ _override_configs = dict(
         school='UCSD',
     ),
     uwaterloo=dict(
-        school='University of Waterloo'
+        school='University of Waterloo',
+        master_program_name='MMath'
     )
 )
 
