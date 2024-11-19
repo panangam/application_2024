@@ -20,6 +20,9 @@ _override_configs = dict(
     ),
     ucsd=dict(
         school='UCSD',
+    ),
+    uwaterloo=dict(
+        school='University of Waterloo'
     )
 )
 
