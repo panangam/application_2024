@@ -1,0 +1,1 @@
+Berkeley's computer vision group within the Berkeley Artificial Intelligence Research group aligns perfectly with my research interests in computational geometry and its applications. I am particularly inspired by Professor Angjoo Kanazawa's work on cutting-edge geometric deep learning, which relates to my experience with anthropometric machine learning at unspun.

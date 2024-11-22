@@ -21,10 +21,20 @@ _override_configs = dict(
     ),
     ucsd=dict(
         school='UCSD',
+        header_extra=' | Computer Science \& Engineering'
     ),
     uwaterloo=dict(
         school='University of Waterloo',
         master_program_name='MMath'
+    ),
+    berkeley=dict(
+        school="UC Berkeley",
+        include_personal_paragraph=False,
+        is_master=False,
+    ),
+    stanford=dict(
+        school='Stanford',
+        include_personal_paragraph=False
     )
 )
 

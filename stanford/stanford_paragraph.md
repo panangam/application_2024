@@ -1,0 +1,1 @@
+The option to do "Master of Science with Distinction in Research" aligns perfectly with my academic goals, and strongly motivates my application to Stanford. Numerous graphics labs at Stanford promise a wealth of research opportunities, and I was particularly drawn to the work of Professor Doug James. 
