@@ -35,6 +35,10 @@ _override_configs = dict(
     stanford=dict(
         school='Stanford',
         include_personal_paragraph=False
+    ),
+    columbia=dict(
+        school='Columbia',
+        is_master=False,
     )
 )
 
